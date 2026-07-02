@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fondo azul (rellena toda el área para maskable) -->
+  <rect width="512" height="512" fill="#3b82f6"/>
+
+  <!-- Rectángulo interno oscuro (tarjeta) -->
+  <rect x="80" y="80" width="352" height="352" rx="48" fill="#1e3a5f"/>
+
+  <!-- Letra P principal -->
+  <text x="256" y="348"
+        font-family="Arial Black,Arial,Helvetica,sans-serif"
+        font-size="310"
+        font-weight="900"
+        fill="#ffffff"
+        text-anchor="middle"
+        dominant-baseline="alphabetic">P</text>
+
+  <!-- Líneas de estacionamiento en la parte inferior -->
+  <rect x="130" y="390" width="252" height="14" rx="7" fill="rgba(255,255,255,0.25)"/>
+  <rect x="160" y="412" width="192" height="10" rx="5" fill="rgba(255,255,255,0.15)"/>
+</svg>

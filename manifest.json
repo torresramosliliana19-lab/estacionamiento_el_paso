@@ -1,0 +1,35 @@
+{
+  "name": "Estacionamiento El Paso",
+  "short_name": "El Paso",
+  "description": "Sistema de control de acceso y cobro — $15 MXN/hora",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#080e1a",
+  "theme_color": "#3b82f6",
+  "lang": "es-MX",
+  "categories": ["business", "utilities"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Registrar Entrada",
+      "short_name": "Entrada",
+      "url": "./index.html#entrada",
+      "description": "Generar ticket de entrada con QR"
+    },
+    {
+      "name": "Registrar Salida",
+      "short_name": "Salida",
+      "url": "./index.html#salida",
+      "description": "Escanear QR y cobrar"
+    }
+  ]
+}
