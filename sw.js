@@ -4,11 +4,17 @@
                Network-first con fallback a cache para CDN
    ══════════════════════════════════════════════════════════ */
 
-const CACHE_NAME  = 'elpaso-v1';
+const CACHE_NAME  = 'elpaso-v2';
 const LOCAL_URLS  = [
   './index.html',
   './manifest.json',
   './icon.svg',
+  './vendor/qrcode.min.js',
+  './vendor/jsQR.js',
+  './vendor/fontawesome/css/all.min.css',
+  './vendor/fontawesome/webfonts/fa-solid-900.woff2',
+  './vendor/fontawesome/webfonts/fa-brands-400.woff2',
+  './vendor/fontawesome/webfonts/fa-regular-400.woff2',
 ];
 
 /* ── INSTALL: pre-cachear archivos locales ─────────────── */
